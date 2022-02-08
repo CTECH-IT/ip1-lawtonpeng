@@ -10,3 +10,4 @@ Make sure you edit *this file* (REAMDE.md), delete all this information and put 
 Then, edit index.html and add your name in the author meta field. 
 
 Finally, commit and push to make sure it's working for you.
+Lawton Peng
