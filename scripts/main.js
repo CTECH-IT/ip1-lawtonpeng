@@ -86,11 +86,11 @@ function isGameOver() {
 
   if (gameOver) {
     ctx.fillStyle = "white";
-    ctx.font = "50px Verdana";
+    ctx.font = "50px Comic Sans MS";
 
     if (gameOver) {
       ctx.fillStyle = "white";
-      ctx.font = "50px Verdana";
+      ctx.font = "50px Comic Sans MS";
 
       var gradient = ctx.createLinearGradient(0, 0, canvas.width, 0);
       gradient.addColorStop("0", " red");
@@ -108,7 +108,7 @@ function isGameOver() {
 
 function drawScore() {
   ctx.fillStyle = "white";
-  ctx.font = "10px Verdana";
+  ctx.font = "10px Comic Sans MS";
   ctx.fillText("Score " + score, canvas.width - 50, 10);
 }
 
