@@ -171,20 +171,20 @@ function keyDown(event) {
     inputsXVelocity = 0;
   }
 
-  //Left
-  if (event.keyCode == 37 || event.keyCode == 65) {
-    // 65 is A
-    if (inputsXVelocity == 1) return;
-    inputsYVelocity = 0;
-    inputsXVelocity = -1;
-  }
-
-  //Right
-  if (event.keyCode == 39 || event.keyCode == 68) {
+ //Right
+ if (event.keyCode == 39 || event.keyCode == 68) {
     //68 is D
     if (inputsXVelocity == -1) return;
     inputsYVelocity = 0;
     inputsXVelocity = 1;
+  }
+
+ //Left
+ if (event.keyCode == 37 || event.keyCode == 65) {
+    // 65 is A
+    if (inputsXVelocity == 1) return;
+    inputsYVelocity = 0;
+    inputsXVelocity = -1;
   }
 }
 
