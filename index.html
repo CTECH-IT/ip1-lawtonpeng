@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" dir="ltr">
+
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Game Project</title>
     <meta name="Lawton" content="Lawton Peng">
     <style>
-        body{
+       body{
             margin: 0px;
             padding: 0px;
             display: flex;
@@ -17,15 +17,23 @@
         canvas{
             box-shadow: black 20px 10px 50px;
         }
-    </style>    
+
+    </style>
+    
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="stylesheets/styles.css">
-</head>
+  </head>
 
 <body>
-    <h1>Snake</h1>
-    
+  <header>
+    <h1 class="page-title">Snake Game</h1>
+
     <canvas id="game" width="400" height="400"/>
     <script src="index.js"></script>
+    
+  </header>
+
+  <script src="scripts/main.js"></script>
 </body>
 </html>
